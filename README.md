@@ -7,7 +7,7 @@ You will need to install [TensorFlow](https://www.tensorflow.org/).
 
 ## Data Preparation:
 
-The dev dataset has been used for training the hyperparameters. The test dataset has been used for testing.
+The dev dataset has been used for training the hyperparameters. The test dataset has been used for testing.<br>
 `cd code`
 
 ### Create the vectorizers using a pre-trained model:
