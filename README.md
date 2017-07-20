@@ -1,7 +1,7 @@
 # RLIE_A3C
 Code for the paper 'Speeding up Reinforcement Learning-based Information Extraction Training using Asynchronous Methods' to be presented at EMNLP 2017.
 
---- Data Preparation:
+## Data Preparation:
 
 The dev dataset has been used for training the hyperparameters. The test dataset has been used for testing.
 
@@ -14,7 +14,7 @@ python consolidate.py ../data/dloads/Shooter/train.extra 5 trained_model2.p cons
 python consolidate.py ../data/dloads/Shooter/test.extra 5 trained_model2.p consolidated/test+context.5.p consolidated/vec_test.5.p
 
 
---- Running the code:
+## Running the code:
 
 -- Run the server:
 cd code
