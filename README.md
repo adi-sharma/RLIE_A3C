@@ -7,8 +7,8 @@ You will need to install [TensorFlow](https://www.tensorflow.org/).
 
 ## Data Preparation:
 
-The dev dataset has been used for training the hyperparameters. The test dataset has been used for testing.<br>
-`cd code`
+The dev dataset has been used for training the hyperparameters. The test dataset has been used for testing.
+* Change to the code directory: `cd code`
 
 ### Create the vectorizers using a pre-trained model:
 `python vec_consolidate.py ../data/dloads/Shooter/train.extra 5 trained_model2.p consolidated/vec_train.5.p`<br>
