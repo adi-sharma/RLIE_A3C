@@ -31,6 +31,19 @@ The dev dataset has been used for training the hyperparameters. The test dataset
 `python a3c.py`
 
 
+## Cite
+```
+
+@inproceedings{sharma2017speeding,
+  title={Speeding up Reinforcement Learning-based Information Extraction Training using Asynchronous Methods},
+  author={Sharma, Aditya and Parekh, Zarana and Talukdar, Partha},
+  booktitle={Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
+  pages={2648--2653},
+  year={2017}
+}
+```
+
+
 
 ## Acknowledgements
 
