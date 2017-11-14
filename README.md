@@ -33,7 +33,6 @@ The dev dataset has been used for training the hyperparameters. The test dataset
 
 ## Cite
 ```
-
 @inproceedings{sharma2017speeding,
   title={Speeding up Reinforcement Learning-based Information Extraction Training using Asynchronous Methods},
   author={Sharma, Aditya and Parekh, Zarana and Talukdar, Partha},
