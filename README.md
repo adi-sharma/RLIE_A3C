@@ -47,3 +47,4 @@ The dev dataset has been used for training the hyperparameters. The test dataset
 ## Acknowledgements
 
 [Karthik's DeepRL-InformationExtraction Codebase](https://github.com/karthikncode/DeepRL-InformationExtraction)
+[Kosuke Miyoshi's A3C implementation](https://github.com/miyosuda/async_deep_reinforce)
