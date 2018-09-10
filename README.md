@@ -9,12 +9,12 @@ The dev dataset has been used for training the hyperparameters. The test dataset
 * Change to the code directory: `cd code`
 
 #### Create the vectorizers using a pre-trained model:
-`python vec_consolidate.py ../data/dloads/Shooter/train.extra 5 trained_model2.p consolidated/vec_train.5.p`<br>
-`python vec_consolidate.py ../data/dloads/Shooter/test.extra 5 trained_model2.p consolidated/vec_test.5.p`
+`python vec_consolidate.py dloads/Shooter/train.extra 5 trained_model2.p consolidated/vec_train.5.p`<br>
+`python vec_consolidate.py .dloads/Shooter/test.extra 5 trained_model2.p consolidated/vec_test.5.p`
 
 #### Consolidate the articles:
-`python consolidate.py ../data/dloads/Shooter/train.extra 5 trained_model2.p consolidated/train+context.5.p consolidated/vec_train.5.p`<br>
-`python consolidate.py ../data/dloads/Shooter/test.extra 5 trained_model2.p consolidated/test+context.5.p consolidated/vec_test.5.p`
+`python consolidate.py dloads/Shooter/train.extra 5 trained_model2.p consolidated/train+context.5.p consolidated/vec_train.5.p`<br>
+`python consolidate.py dloads/Shooter/test.extra 5 trained_model2.p consolidated/test+context.5.p consolidated/vec_test.5.p`
 
 
 ### Running the code:
